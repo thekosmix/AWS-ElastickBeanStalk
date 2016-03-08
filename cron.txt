@@ -1,0 +1,6 @@
+MAILTO=admin@xyz.com
+
+#exceptionTrackerscript
+*/5 * * * * bash /home/ec2-user/exceptionTracker.sh
+* * * * * bash /home/ec2-user/killTomcatMallicious.sh
+
